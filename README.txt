@@ -22,9 +22,9 @@ Create gem
 
 $ ruby net-tftp.gemspec
 
-Probably becom administrator/root
+Probably become administrator/root
 
-# gem instal net-tftp.gem
+# gem install net-tftp.gem
 
 == License
 
