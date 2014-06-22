@@ -255,7 +255,7 @@ module Net # :nodoc:
     # of the block starting at 1.
     def putbinaryfile(localfile, remotefile = nil, &block) # :yields: data, seq
       remotefile ||= File.basename(localfile)
-      open(localfile, "rb") do |f|
+      File.open(localfile, "rb") do |f|
         putbinary(remotefile, f, &block)
       end
     end
